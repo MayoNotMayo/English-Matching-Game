@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Halloween Card Matching Game</title>
+  <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.3.1/css/all.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>English Matching</title>
+</head>
+
+<body>
+  <h1 class="page-title">English Matching</h1>
+  <div class="overlay-text visible">
+    Click to Start
+  </div>
+  <div id="game-over-text" class="overlay-text">
+    GAME OVER
+    <span class="overlay-text-small">Click to Restart</span>
+  </div>
+  <div id="victory-text" class="overlay-text">
+    VICTORY
+    <span class="overlay-text-small">Click to Restart</span>
+  </div>
+  <div class="game-container">
+    <div class="game-info-container">
+      <div class="game-info">
+        Time <span id="time-remaining">180</span>
+      </div>
+      <div class="game-info">
+        Flips <span id="flips">0</span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        
+       
+         <img class="spider" src="https://user-images.githubusercontent.com/100898272/156705933-169f14c7-45e8-4ee2-b657-b16a61bffad6.png"
+		height=100%
+		width=100% />
+      </div>
+      <div class="card-front card-face">
+         <img class="card-value" src="https://user-images.githubusercontent.com/100898272/156705496-aac54f64-726a-4446-b147-4ccee9ac0ccd.png"
+		height=100%
+		width=100% />
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        
+       
+         <img class="spider" src="https://user-images.githubusercontent.com/100898272/156705933-169f14c7-45e8-4ee2-b657-b16a61bffad6.png"
+		height=100%
+		width=100% />
+      </div>
+      <div class="card-front card-face">
+         <img class="card-value" src="https://user-images.githubusercontent.com/100898272/156705496-aac54f64-726a-4446-b147-4ccee9ac0ccd.png"
+		height=100%
+		width=100% />
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        
+       
+         <img class="spider" src="https://user-images.githubusercontent.com/100898272/156705933-169f14c7-45e8-4ee2-b657-b16a61bffad6.png"
+		height=100%
+		width=100% />
+      </div>
+      <div class="card-front card-face">
+         <img class="card-value" src="https://user-images.githubusercontent.com/100898272/156705510-7d9829da-701b-4348-ac73-a3bd9e05caec.png"
+		height=100%
+		width=100% />
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        
+       
+         <img class="spider" src="https://user-images.githubusercontent.com/100898272/156705933-169f14c7-45e8-4ee2-b657-b16a61bffad6.png"
+		height=100%
+		width=100% />
+      </div>
+      <div class="card-front card-face">
+         <img class="card-value" src="https://user-images.githubusercontent.com/100898272/156705510-7d9829da-701b-4348-ac73-a3bd9e05caec.png"
+		height=100%
+		width=100% />
+      </div>
+    </div>
+   <div class="card">
+      <div class="card-back card-face">
+        
+       
+         <img class="spider" src="https://user-images.githubusercontent.com/100898272/156705933-169f14c7-45e8-4ee2-b657-b16a61bffad6.png"
+		height=100%
+		width=100% />
+      </div>
+      <div class="card-front card-face">
+         <img class="card-value" src="https://user-images.githubusercontent.com/100898272/156705521-0e39ee3a-393b-4f1c-b01b-2b45691d04fe.png"
+		height=100%
+		width=100% />
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        
+       
+         <img class="spider" src="https://user-images.githubusercontent.com/100898272/156705933-169f14c7-45e8-4ee2-b657-b16a61bffad6.png"
+		height=100%
+		width=100% />
+      </div>
+      <div class="card-front card-face">
+         <img class="card-value" src="https://user-images.githubusercontent.com/100898272/156705521-0e39ee3a-393b-4f1c-b01b-2b45691d04fe.png"
+		height=100%
+		width=100% />
+      </div>
+    </div>
+   <div class="card">
+      <div class="card-back card-face">
+        
+       
+         <img class="spider" src="https://user-images.githubusercontent.com/100898272/156705933-169f14c7-45e8-4ee2-b657-b16a61bffad6.png"
+		height=100%
+		width=100% />
+      </div>
+      <div class="card-front card-face">
+         <img class="card-value" src="https://user-images.githubusercontent.com/100898272/156705526-953dbed5-3d40-4a53-9476-b2b3c7147370.png"
+		height=100%
+		width=100% />
+      </div>
+    </div>
+   <div class="card">
+      <div class="card-back card-face">
+        
+       
+         <img class="spider" src="https://user-images.githubusercontent.com/100898272/156705933-169f14c7-45e8-4ee2-b657-b16a61bffad6.png"
+		height=100%
+		width=100% />
+      </div>
+      <div class="card-front card-face">
+         <img class="card-value" src="https://user-images.githubusercontent.com/100898272/156705526-953dbed5-3d40-4a53-9476-b2b3c7147370.png"
+		height=100%
+		width=100% />
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        
+       
+         <img class="spider" src="https://user-images.githubusercontent.com/100898272/156705933-169f14c7-45e8-4ee2-b657-b16a61bffad6.png"
+		height=100%
+		width=100% />
+      </div>
+      <div class="card-front card-face">
+         <img class="card-value" src="https://user-images.githubusercontent.com/100898272/156705531-0779aeeb-0baa-4b3f-b584-67cf5a482c87.png"
+		height=100%
+		width=100% />
+      </div>
+    </div>
+   <div class="card">
+      <div class="card-back card-face">
+        
+       
+         <img class="spider" src="https://user-images.githubusercontent.com/100898272/156705933-169f14c7-45e8-4ee2-b657-b16a61bffad6.png"
+		height=100%
+		width=100% />
+      </div>
+      <div class="card-front card-face">
+         <img class="card-value" src="https://user-images.githubusercontent.com/100898272/156705531-0779aeeb-0baa-4b3f-b584-67cf5a482c87.png"
+		height=100%
+		width=100% />
+      </div>
+    </div>
+   <div class="card">
+      <div class="card-back card-face">
+        
+       
+         <img class="spider" src="https://user-images.githubusercontent.com/100898272/156705933-169f14c7-45e8-4ee2-b657-b16a61bffad6.png"
+		height=100%
+		width=100% />
+      </div>
+      <div class="card-front card-face">
+         <img class="card-value" src="https://user-images.githubusercontent.com/100898272/156705535-9e7d40fc-11b1-46f9-9b13-ecfb3500dea2.png"
+		height=100%
+		width=100% />
+      </div>
+    </div>
+   <div class="card">
+      <div class="card-back card-face">
+        
+       
+         <img class="spider" src="https://user-images.githubusercontent.com/100898272/156705933-169f14c7-45e8-4ee2-b657-b16a61bffad6.png"
+		height=100%
+		width=100% />
+      </div>
+      <div class="card-front card-face">
+         <img class="card-value" src="https://user-images.githubusercontent.com/100898272/156705535-9e7d40fc-11b1-46f9-9b13-ecfb3500dea2.png"
+		height=100%
+		width=100% />
+      </div>
+    </div>
+  <div class="card">
+      <div class="card-back card-face">
+        
+       
+         <img class="spider" src="https://user-images.githubusercontent.com/100898272/156705933-169f14c7-45e8-4ee2-b657-b16a61bffad6.png"
+		height=100%
+		width=100% />
+      </div>
+      <div class="card-front card-face">
+         <img class="card-value" src="https://user-images.githubusercontent.com/100898272/156706523-9264a5cc-a74f-4266-a680-e77778433eb3.png"
+		height=100%
+		width=100% />
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        
+       
+         <img class="spider" src="https://user-images.githubusercontent.com/100898272/156705933-169f14c7-45e8-4ee2-b657-b16a61bffad6.png"
+		height=100%
+		width=100% />
+      </div>
+      <div class="card-front card-face">
+         <img class="card-value" src="https://user-images.githubusercontent.com/100898272/156706523-9264a5cc-a74f-4266-a680-e77778433eb3.png"
+		height=100%
+		width=100% />
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        
+       
+         <img class="spider" src="https://user-images.githubusercontent.com/100898272/156705933-169f14c7-45e8-4ee2-b657-b16a61bffad6.png"
+		height=100%
+		width=100% />
+      </div>
+      <div class="card-front card-face">
+         <img class="card-value" src="https://user-images.githubusercontent.com/100898272/156706540-987090fb-4ddc-48cc-b35a-414b3af1d86f.png"
+		height=100%
+		width=100% />
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        
+       
+         <img class="spider" src="https://user-images.githubusercontent.com/100898272/156705933-169f14c7-45e8-4ee2-b657-b16a61bffad6.png"
+		height=100%
+		width=100% />
+      </div>
+      <div class="card-front card-face">
+         <img class="card-value" src="https://user-images.githubusercontent.com/100898272/156706540-987090fb-4ddc-48cc-b35a-414b3af1d86f.png"
+		height=100%
+		width=100% />
+      </div>
+    </div>
+   <div class="card">
+      <div class="card-back card-face">
+        
+       
+         <img class="spider" src="https://user-images.githubusercontent.com/100898272/156705933-169f14c7-45e8-4ee2-b657-b16a61bffad6.png"
+		height=100%
+		width=100% />
+      </div>
+      <div class="card-front card-face">
+         <img class="card-value" src="https://user-images.githubusercontent.com/100898272/156706547-aed818b0-c39d-4d94-be36-0a10127a3ea6.png"
+		height=100%
+		width=100% />
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        
+       
+         <img class="spider" src="https://user-images.githubusercontent.com/100898272/156705933-169f14c7-45e8-4ee2-b657-b16a61bffad6.png"
+		height=100%
+		width=100% />
+      </div>
+      <div class="card-front card-face">
+         <img class="card-value" src="https://user-images.githubusercontent.com/100898272/156706547-aed818b0-c39d-4d94-be36-0a10127a3ea6.png"
+		height=100%
+		width=100% />
+      </div>
+    </div>
+   <div class="card">
+      <div class="card-back card-face">
+        
+       
+         <img class="spider" src="https://user-images.githubusercontent.com/100898272/156705933-169f14c7-45e8-4ee2-b657-b16a61bffad6.png"
+		height=100%
+		width=100% />
+      </div>
+      <div class="card-front card-face">
+         <img class="card-value" src="https://user-images.githubusercontent.com/100898272/156706555-fb93147d-bb76-4562-9a2c-64f6d8503f13.png"
+		height=100%
+		width=100% />
+      </div>
+    </div>
+   <div class="card">
+      <div class="card-back card-face">
+        
+       
+         <img class="spider" src="https://user-images.githubusercontent.com/100898272/156705933-169f14c7-45e8-4ee2-b657-b16a61bffad6.png"
+		height=100%
+		width=100% />
+      </div>
+      <div class="card-front card-face">
+         <img class="card-value" src="https://user-images.githubusercontent.com/100898272/156706555-fb93147d-bb76-4562-9a2c-64f6d8503f13.png"
+		height=100%
+		width=100% />
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        
+       
+         <img class="spider" src="https://user-images.githubusercontent.com/100898272/156705933-169f14c7-45e8-4ee2-b657-b16a61bffad6.png"
+		height=100%
+		width=100% />
+      </div>
+      <div class="card-front card-face">
+         <img class="card-value" src="https://user-images.githubusercontent.com/100898272/156706564-e84c386c-4c3e-456c-8547-d40b48901c0b.png"
+		height=100%
+		width=100% />
+      </div>
+    </div>
+   <div class="card">
+      <div class="card-back card-face">
+        
+       
+         <img class="spider" src="https://user-images.githubusercontent.com/100898272/156705933-169f14c7-45e8-4ee2-b657-b16a61bffad6.png"
+		height=100%
+		width=100% />
+      </div>
+      <div class="card-front card-face">
+         <img class="card-value" src="https://user-images.githubusercontent.com/100898272/156706564-e84c386c-4c3e-456c-8547-d40b48901c0b.png"
+		height=100%
+		width=100% />
+      </div>
+    </div>
+   <div class="card">
+      <div class="card-back card-face">
+        
+       
+         <img class="spider" src="https://user-images.githubusercontent.com/100898272/156705933-169f14c7-45e8-4ee2-b657-b16a61bffad6.png"
+		height=100%
+		width=100% />
+      </div>
+      <div class="card-front card-face">
+         <img class="card-value" src="https://user-images.githubusercontent.com/100898272/156706566-597dd6d1-7a72-462b-a56a-f07098039c27.png"
+		height=100%
+		width=100% />
+      </div>
+    </div>
+   <div class="card">
+      <div class="card-back card-face">
+        
+       
+         <img class="spider" src="https://user-images.githubusercontent.com/100898272/156705933-169f14c7-45e8-4ee2-b657-b16a61bffad6.png"
+		height=100%
+		width=100% />
+      </div>
+      <div class="card-front card-face">
+         <img class="card-value" src="https://user-images.githubusercontent.com/100898272/156706566-597dd6d1-7a72-462b-a56a-f07098039c27.png"
+		height=100%
+		width=100% />
+      </div>
+    </div>
+<div class="card">
+      <div class="card-back card-face">
+        
+       
+         <img class="spider" src="https://user-images.githubusercontent.com/100898272/156705933-169f14c7-45e8-4ee2-b657-b16a61bffad6.png"
+		height=100%
+		width=100% />
+      </div>
+      <div class="card-front card-face">
+         <img class="card-value" src="https://user-images.githubusercontent.com/100898272/156706570-548b09d2-8688-4b89-a5d2-d0da3095db58.png"
+		height=100%
+		width=100% />
+      </div>
+    </div>
+   <div class="card">
+      <div class="card-back card-face">
+        
+       
+         <img class="spider" src="https://user-images.githubusercontent.com/100898272/156705933-169f14c7-45e8-4ee2-b657-b16a61bffad6.png"
+		height=100%
+		width=100% />
+      </div>
+      <div class="card-front card-face">
+         <img class="card-value" src="https://user-images.githubusercontent.com/100898272/156706570-548b09d2-8688-4b89-a5d2-d0da3095db58.png"
+		height=100%
+		width=100% />
+      </div>
+    </div><div class="card">
+      <div class="card-back card-face">
+        
+       
+         <img class="spider" src="https://user-images.githubusercontent.com/100898272/156705933-169f14c7-45e8-4ee2-b657-b16a61bffad6.png"
+		height=100%
+		width=100% />
+      </div>
+      <div class="card-front card-face">
+         <img class="card-value" src="https://user-images.githubusercontent.com/100898272/156706575-e2cd18ba-7a4e-4e1d-94fe-3e03134be5a5.png"
+		height=100%
+		width=100% />
+      </div>
+    </div>
+   <div class="card">
+      <div class="card-back card-face">
+        
+       
+         <img class="spider" src="https://user-images.githubusercontent.com/100898272/156705933-169f14c7-45e8-4ee2-b657-b16a61bffad6.png"
+		height=100%
+		width=100% />
+      </div>
+      <div class="card-front card-face">
+         <img class="card-value" src="https://user-images.githubusercontent.com/100898272/156706575-e2cd18ba-7a4e-4e1d-94fe-3e03134be5a5.png"
+		height=100%
+		width=100% />
+      </div>
+    </div><div class="card">
+      <div class="card-back card-face">
+        
+       
+         <img class="spider" src="https://user-images.githubusercontent.com/100898272/156705933-169f14c7-45e8-4ee2-b657-b16a61bffad6.png"
+		height=100%
+		width=100% />
+      </div>
+      <div class="card-front card-face">
+         <img class="card-value" src="https://user-images.githubusercontent.com/100898272/156706582-b5665379-726a-456d-8518-91feb903bbc4.png"
+		height=100%
+		width=100% />
+      </div>
+    </div>
+   <div class="card">
+      <div class="card-back card-face">
+        
+       
+         <img class="spider" src="https://user-images.githubusercontent.com/100898272/156705933-169f14c7-45e8-4ee2-b657-b16a61bffad6.png"
+		height=100%
+		width=100% />
+      </div>
+      <div class="card-front card-face">
+         <img class="card-value" src="https://user-images.githubusercontent.com/100898272/156706582-b5665379-726a-456d-8518-91feb903bbc4.png"
+		height=100%
+		width=100% />
+      </div>
+    </div><div class="card">
+      <div class="card-back card-face">
+        
+       
+         <img class="spider" src="https://user-images.githubusercontent.com/100898272/156705933-169f14c7-45e8-4ee2-b657-b16a61bffad6.png"
+		height=100%
+		width=100% />
+      </div>
+      <div class="card-front card-face">
+         <img class="card-value" src="https://user-images.githubusercontent.com/100898272/156706593-e77d6384-0fb2-4a97-952d-b6ee3f6651bc.png"
+		height=100%
+		width=100% />
+      </div>
+    </div>
+   <div class="card">
+      <div class="card-back card-face">
+        
+       
+         <img class="spider" src="https://user-images.githubusercontent.com/100898272/156705933-169f14c7-45e8-4ee2-b657-b16a61bffad6.png"
+		height=100%
+		width=100% />
+      </div>
+      <div class="card-front card-face">
+         <img class="card-value" src="https://user-images.githubusercontent.com/100898272/156706593-e77d6384-0fb2-4a97-952d-b6ee3f6651bc.png"
+		height=100%
+		width=100% />
+      </div>
+    </div><div class="card">
+      <div class="card-back card-face">
+        
+       
+         <img class="spider" src="https://user-images.githubusercontent.com/100898272/156705933-169f14c7-45e8-4ee2-b657-b16a61bffad6.png"
+		height=100%
+		width=100% />
+      </div>
+      <div class="card-front card-face">
+         <img class="card-value" src="https://user-images.githubusercontent.com/100898272/156706600-6d1b7e76-93d5-416f-93ad-53df4dec6a13.png"
+		height=100%
+		width=100% />
+      </div>
+    </div>
+   <div class="card">
+      <div class="card-back card-face">
+        
+       
+         <img class="spider" src="https://user-images.githubusercontent.com/100898272/156705933-169f14c7-45e8-4ee2-b657-b16a61bffad6.png"
+		height=100%
+		width=100% />
+      </div>
+      <div class="card-front card-face">
+         <img class="card-value" src="https://user-images.githubusercontent.com/100898272/156706600-6d1b7e76-93d5-416f-93ad-53df4dec6a13.png"
+		height=100%
+		width=100% />
+      </div>
+    </div><div class="card">
+      <div class="card-back card-face">
+        
+       
+         <img class="spider" src="https://user-images.githubusercontent.com/100898272/156705933-169f14c7-45e8-4ee2-b657-b16a61bffad6.png"
+		height=100%
+		width=100% />
+      </div>
+      <div class="card-front card-face">
+         <img class="card-value" src="https://user-images.githubusercontent.com/100898272/156706613-9b2b8c86-9d1a-487a-8635-e20df8571b2d.png"
+		height=100%
+		width=100% />
+      </div>
+    </div>
+   <div class="card">
+      <div class="card-back card-face">
+        
+       
+         <img class="spider" src="https://user-images.githubusercontent.com/100898272/156705933-169f14c7-45e8-4ee2-b657-b16a61bffad6.png"
+		height=100%
+		width=100% />
+      </div>
+      <div class="card-front card-face">
+         <img class="card-value" src="https://user-images.githubusercontent.com/100898272/156706613-9b2b8c86-9d1a-487a-8635-e20df8571b2d.png"
+		height=100%
+		width=100% />
+      </div>
+    </div>
+  </div>
+</body>
+ 
+      
+      
+     
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
