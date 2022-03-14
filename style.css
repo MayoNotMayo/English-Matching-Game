@@ -76,7 +76,20 @@ body {
   border-style: solid;
   transition: transform 500ms ease-in-out;
 }
-
+.card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  backface-visibility: hidden;
+  border-radius: 12px;
+  border-width: 1px;
+  border-style: solid;
+  transition: transform 500ms ease-in-out;
+}
 .card.visible .card-back {
   transform: rotateY(-180deg);
 }
